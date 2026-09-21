@@ -4,3 +4,9 @@
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence.
 * @GoogleCloudPlatform/devrel-flagship-app-maintainers @yoshi-approver
+# boutique (fork microservices-demo)
+*                     @boutique-systems/dev-team
+/.github/workflows/   @boutique-systems/devops-team
+
+# boutique-infra  /  boutique-gitops
+*                     @boutique-systems/devops-team
