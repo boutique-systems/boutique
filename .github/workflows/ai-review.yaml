@@ -4,9 +4,13 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   review:
     uses: boutique-systems/boutique-actions/.github/workflows/ai-persona-review.yml@main
     with:
-      level: junior   # ← à faire évoluer : setup | junior | confirme | senior | architecte
+      level: junior
     secrets: inherit
