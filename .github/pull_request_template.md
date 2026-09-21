@@ -1,16 +1,22 @@
-### Background 
-<!-- What was happening before this PR, and the problem(s) it solves -->
+## Description
+...
 
-### Fixes 
-<!-- Link the issue(s) this PR fixes-->
-### Change Summary
-<!-- Short summary of the changes submitted -->
+## Ticket lié
+Closes #...
 
-### Additional Notes
-<!-- Any remaining concerns -->
+## Type de changement
+- [ ] Feature
+- [ ] Fix
+- [ ] Infra
+- [ ] Docs
+- [ ] CI/CD
 
-### Testing Procedure
-<!-- If applicable, write how to test for reviewers-->
+## Checklist
+- [ ] Commits respectent Conventional Commits
+- [ ] Tests ajoutés / mis à jour
+- [ ] Documentation mise à jour
+- [ ] ADR créé si décision architecturale
+- [ ] Pas de secrets dans le code
 
-### Related PRs or Issues 
-<!-- Dependent PRs, or any relevant linked issues -->
+## Captures / logs
+...
