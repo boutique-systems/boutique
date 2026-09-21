@@ -7,6 +7,3 @@
 # boutique (fork microservices-demo)
 *                     @boutique-systems/dev-team
 /.github/workflows/   @boutique-systems/devops-team
-
-# boutique-infra  /  boutique-gitops
-*                     @boutique-systems/devops-team

@@ -1,0 +1,12 @@
+name: AI persona review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  review:
+    uses: boutique-systems/boutique-actions/.github/workflows/ai-persona-review.yml@main
+    with:
+      level: junior   # ← à faire évoluer : setup | junior | confirme | senior | architecte
+    secrets: inherit
