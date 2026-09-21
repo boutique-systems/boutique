@@ -1,0 +1,83 @@
+version: 2
+
+updates:
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # Go
+  - package-ecosystem: "gomod"
+    directories:
+      - "/src/frontend"
+      - "/src/productcatalogservice"
+      - "/src/shippingservice"
+      - "/src/checkoutservice"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # Node.js
+  - package-ecosystem: "npm"
+    directories:
+      - "/src/currencyservice"
+      - "/src/paymentservice"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # Python
+  - package-ecosystem: "pip"
+    directories:
+      - "/src/emailservice"
+      - "/src/recommendationservice"
+      - "/src/loadgenerator"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # .NET
+  - package-ecosystem: "nuget"
+    directory: "/src/cartservice"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # Java
+  - package-ecosystem: "gradle"
+    directory: "/src/adservice"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # Terraform
+  - package-ecosystem: "terraform"
+    directory: "/terraform"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
+
+  # Docker
+  - package-ecosystem: "docker"
+    directory: "/src/frontend"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "05:00"
+      timezone: "Europe/Paris"
